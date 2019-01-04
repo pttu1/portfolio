@@ -1,0 +1,46 @@
+HTML 5 meta elements viewport, description bla bla
+
+Div class id vs class: id is unique (to be only used uniquley). Class can be used over and over again
+
+nav - navigation
+
+ul - unordered list
+
+li - list item
+
+<a href: 
+
+section: usually showcase area under header
+
+<span> is an in-line level element. It's not going to make go into the next line
+
+All of these above are called markup. 
+
+CSS
+
+In CSS font-family, font-size and line-height can me written as:
+
+font: font-size/line-height font-family;
+
+Container is a class...use a period
+
+when you have an Id ....use # sign
+
+use percentage value with the width to make respnsive
+
+min-height = helps adjust the height in responsive website.
+
+
+After the design is complete...time to make it look good on mobile device. What we need to do is use media queries. 
+
+We can set media queries to basically state that these group of css would only work if that screen is at a certain width. 
+
+Example:
+
+@media(max-width: 768px){
+  body{
+    display: none;;
+  }
+}
+
+From the example above...The body only displays when the screen is greater than or equal to 768px
